@@ -6,5 +6,10 @@
     </head>
     <body>
         
+        <form action="{% url 'restaurant-create'%}" method = "post">
+        {% csrf_token %}
+        {{form}}
+        <input type = "submit" value = "Create Restaurant"/>
+    </form>
     </body>
 </html>

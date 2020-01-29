@@ -23,4 +23,5 @@ urlpatterns = [
     path('restaurants/list/',views.restaurant_list ,name='restaurant-list'),
     path('restaurants/detail/<int:restaurant_id>/',views.restaurant_detail ,name='restaurant-detail'),
     path('restaurants/create/',views.restaurant_create ,name='restaurant-create'),
+    
 ]
